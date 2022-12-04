@@ -1,0 +1,116 @@
+div {border: 0px red solid;}
+
+
+
+h2 {font-size: 34px;}
+h1 {padding-left: 65px;}
+
+* {font-family: 'Gilroy';}
+
+.bg-1 {background-color: #FFFFFF;}
+.linia {
+    border: 1px solid #828282;
+    width: 945px;
+    height: 2px;
+    object-position: center;
+    margin-left: 240px;
+    margin-bottom: 50px;
+}
+
+.bg-2 {background-color: #E5E5E5;}
+a {color: black;
+padding-bottom: 20px;}
+img {padding-top: 60px;}
+
+.myImg 
+    {margin-top: 50px;
+    height: 388px;
+    width: 945px;
+    background-image: url(img/BSPP2266.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: 185px;
+}
+
+input { 
+    width: 180px;
+    height: 42px;
+    border: 1px black solid;
+    border-radius: 55px;
+    color: white;
+    background-color: black;
+    margin-bottom: 50px;
+    font-weight: 700;}
+.socseti {
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;}
+
+.info {    
+    padding-bottom: 100px;
+    padding-top: 100px;}
+    
+.main {padding-bottom: 50px;}
+
+span {color: #828282;}
+
+.designer  
+{padding-top: 45px;
+ padding-left: 65px;}
+.nav-link {padding-left: 150px;}
+
+
+@media only screen and (max-width: 720px)
+    {h1 {padding-left: 0px;}
+    .foto {width: 100%;}
+    .designer {padding-left: 15px;}
+    .linia {display: none;}
+    .myImg {width: 100%;
+   
+    margin-left: 0px;}
+    .lang {display: none;}
+    .navbar-light .navbar-toggler {border:0px;
+    margin-left: 150px;}
+}
+
+
+@media only screen and (max-width: 540px)
+    {h1 {padding-left: 0px;}
+    .foto {width: 100%;}
+    .designer {padding-left: 15px;}
+    .linia {display: none;}
+    .myImg {
+    height: 478px;
+    background-image: url(img/BSPP22661.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+        background-position:center;
+    margin-left: 0px;}
+    .lang {display: none;}
+    .navbar-light .navbar-toggler {border:0px;
+    margin-left: 150px;}
+    .nav-link {padding-left: 0px;}
+}
+
+@media only screen and (max-width: 390px)
+{h1 {padding-left: 0px;}
+    .foto {width: 100%;}
+    .designer {padding-left: 15px;}
+    .linia {display: none;}
+    .myImg {
+    height: 478px;
+    background-image: url(img/BSPP22661.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 0px;}
+    .lang {display: none;}
+    .navbar-light .navbar-toggler {border:0px;
+        margin-left: 150px;}
+    .nav-link {padding-left: 0px;}
+}
+
+
+
